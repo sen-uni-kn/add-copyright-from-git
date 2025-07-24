@@ -1,0 +1,23 @@
+# SPDX-FileCopyrightText: 2025 Raffael Senn <raffael.senn@uni-konstanz.de>
+#
+# SPDX-License-Identifier: MIT
+
+[build-system]
+requires = ["flit_core>=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "add-copyright-from-git"
+version = "0.1.0"
+description = "Add missing copyright headers to files based on git author information."
+authors = [{ name = "Raffael Senn", email = "raffael.senn@uni-konstanz.de" }]
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.12"
+dependencies = ["reuse >= 5.0.2"]
+
+[project.scripts]
+add-copyright-from-git = "add_copyright_from_git:main"
+
+[project.optional-dependencies]
+develop = ["black"]
