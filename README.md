@@ -6,6 +6,8 @@ SPDX-License-Identifier: MIT
 
 # add-copyright-from-git
 
+[![REUSE status](https://api.reuse.software/badge/github.com/sen-uni-kn/add-copyright-from-git)](https://api.reuse.software/info/github.com/sen-uni-kn/add-copyright-from-git)
+
 Add missing copyright headers to files based on git author information.
 Helps to make your project [reuse](https://reuse.software/) compliant.
 
